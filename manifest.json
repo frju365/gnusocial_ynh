@@ -4,7 +4,7 @@
     "id": "gnusocial",
     "description": {
         "en": "Create a federated comunication node",
-        "fr": "Créer un noeud de commnication fédéré",
+        "fr": "Créer un noeud de communication fédéré",
         "es": "Crea un nodo de comunicación federado"
     },
     "url": "https://www.gnu.io/",
@@ -48,7 +48,7 @@
                 "type": "user",
                 "ask": {
                     "en": "Choose the GNU Social administrator (must be an existing YunoHost user)",
-                    "fr": "Choisissez
+                    "fr": "Choisissez un administrateur pour GNU Social",
                     "es": "Escoge un adminitrador para GNU Social (debe ser un usuario existente en Yunuhost)"
                 },
                 "example": "homer"
@@ -58,7 +58,7 @@
                 "ask": {
                     "en": "What GNU Social profile?",
                     "es": "¿Qué perfil de GNU Social?",
-                    "fr": "Quel est le profil de GNU Social ?
+                    "fr": "Quel est le profil de GNU Social ?"
                 },
                 "choices": ["Public", "Community", "Private"],
                 "default": "Public"
