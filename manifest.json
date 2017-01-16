@@ -60,8 +60,11 @@
                     "es": "¿Qué perfil de GNU Social?",
                     "fr": "Quel est le profil de GNU Social ?"
                 },
-                "choices": ["Public", "Community", "Private"],
-                "default": "Public"
+                "choices": [ { "en": "Public", "Community", "Private", 
+                                "fr": "Public", "Communautaire", "Privé"}],
+                "default": {
+                              "en": "Public",
+                              "fr": "Public"
             }
         ]
     }
